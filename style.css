@@ -1,0 +1,21 @@
+#drawingContainer {
+  text-align: center;
+  margin: 0 auto;
+  z-index: 2; /* Higher z-index for the drawing container */
+}
+
+#colorPickerContainer {
+  text-align: center;
+  margin: 10px auto;
+  z-index: 1; /* Lower z-index for the color picker container */
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+#colorPickerText {
+      font-family: sans-serif; /* Use a default sans-serif font */
+      font-size: 16px; /* Adjust the font size as needed */
+      font-weight: 700;
+    }
