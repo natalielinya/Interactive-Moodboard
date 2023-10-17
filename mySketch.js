@@ -64,7 +64,7 @@ function setup() {
   createCanvas(400, 200);
   textFont("sans-serif");
   // Set the loaded font as the default font
-  textSize(32);
+  textSize(100);
   text("How is your mood today?", 100, 100);
   
   createCanvas(windowWidth, windowHeight, WEBGL);
