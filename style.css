@@ -15,7 +15,25 @@
 }
 
 #colorPickerText {
-      font-family: sans-serif; /* Use a default sans-serif font */
+      font-family: Anton, sans-serif; /* Use a default sans-serif font */
       font-size: 50px; /* Adjust the font size as needed */
       font-weight: 700;
+      color: #212427;
     }
+
+body {
+  background-color: #e6e6e6; /* Change this color to your desired background color */
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#subText {
+  font-family: Helvetica, Arial, sans-serif; /* Use Helvetica with fallbacks */
+  font-size: 15px; /* Adjust the font size as needed */
+  color: #212427; /* Change this to any color you prefer */
+  margin-top: 10px; /* Adjust the spacing between the color picker and this text */
+}
