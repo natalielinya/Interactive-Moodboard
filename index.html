@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js" type="text/javascript"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- Other head elements, scripts, etc. -->
-</head>
-<body>
-  
-  <!-- Container for the color picker (centered and below the drawing) -->
-  <div id="colorPickerContainer">
-    <p id="colorPickerText">How is your mood today?</p>
-    <input type="color" id="colorPicker" value="#ff0000">
-  </div>
-  
+  <head>
+    <script
+      src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"
+      type="text/javascript"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Other head elements, scripts, etc. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Container for the color picker (centered and below the drawing) -->
+    <div id="colorPickerContainer">
+      <p id="colorPickerText">Hej! How is your mood today?</p>
+      <p id="subText">Pick a color that describes you the best</p>
+      <input type="color" id="colorPicker" value="#ff0000" />
+    </div>
+
     <!-- Container for the drawing -->
-  <div id="drawingContainer">
-    <script src="mySketch.js" type="text/javascript"></script>
-  </div>
-  
-</body>
+    <div id="drawingContainer">
+      <script src="mySketch.js" type="text/javascript"></script>
+    </div>
+  </body>
 </html>
